@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:src="@drawable/undraw_ice_cream_s2rh" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesan Makanan"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edittext"
+            android:hint="Nama" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:hint="Alamat" />
+
+        <EditText
+            android:id="@+id/pesan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:hint="Pesan" />
+
+        <Button
+            android:id="@+id/masuk"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonsyle"
+            android:text="Pesan sekarang"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
